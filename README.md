@@ -1,5 +1,9 @@
 # Better Games Repository
-The *BGR* is a collection of tabletop game rules, all playable with standard tabletop supplies; a deck of cards, six-sided dice, various tokens or any combination of them all. The games strive to adhere to the simplest possible ruleset while providing meaningful gameplay with both luck and skill in hopefully equal measures.
+A slightly pissed-off, highly opinionated collection of good tabletop games, playable by the majority of the human race. Curated by a bunch of pedantic nerds, you are welcome.
+
+---
+
+The *BGR* is a collection of tabletop game rules, all playable with standard tabletop supplies; a deck of cards, six-sided dice, various tokens or any combination of them all. The games strive to adhere to the simplest possible ruleset while providing meaningful gameplay with both luck and skill in hopefully equal measures. All of this presented in a gloriously boring, fast-loading, well-behaved website.
 
 Some games provide completely new experiences, while others refine well-established classics for an overall better experience.  A few will be the un-edited classics themselves, because some games are great as they are.
 

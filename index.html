@@ -4,20 +4,19 @@
 <head>
   <title>Better Games Repository</title>
 
-  <link rel="stylesheet" href="https://rsms.me/inter/inter.css">
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/modern-css-reset/dist/reset.min.css">
   <link rel="stylesheet" href="style.css">
 
   <script src="https://cdn.jsdelivr.net/npm/marked@17.0.1/lib/marked.umd.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/marked-gfm-heading-id@4.1.3/lib/index.umd.min.js"></script>
   <script src="script.js"></script>
 </head>
 
 <body>
-  <div id="content">
-  </div>
+  <div id="readme"></div>
 
   <script>
-    load_md('https://raw.githubusercontent.com/superDuperCyberTechno/bgr/refs/heads/main/README.md', '#content')
+    load_md('README.md', '#readme')
   </script>
 </body>
 
