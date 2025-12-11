@@ -1,3 +1,7 @@
+body:not(a, summary) {
+  cursor: default;
+}
+
 body {
   line-height: 1.3;
   background-color: #F8F3F2;
@@ -10,6 +14,13 @@ p {
   margin: 1rem 0 1rem 0;
 }
 
+summary {
+  font-size: 1.5rem;
+  font-weight: bold;
+  cursor: pointer;
+  user-select: none;
+}
+
 h1,
 h2,
 h3 {
@@ -18,10 +29,16 @@ h3 {
 
 h1+p,
 h2+p,
-h3+p {
+h3+p,
+h1+ul,
+h2+ul,
+h3+ul,
+h1+ol,
+h2+ol,
+h3+ol {
   margin: 0 0 1rem 0;
 }
 
-div {
-  padding: 3vw;
+#content {
+  padding: 2vw;
 }
