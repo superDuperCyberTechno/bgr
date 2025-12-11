@@ -18,9 +18,9 @@ window.addEventListener("DOMContentLoaded", (event) => {
   if (page) {
     page = page.replace('-', '/')
     if (page == 'home') {
-      load_md('/bgr/README.md', '#content>div')
+      load_md('./README.md', '#content>div')
     } else {
-      load_md('/bgr/' + page + '/README.md', '#content>div')
+      load_md('./' + page + '/README.md', '#content>div')
     }
   }
   else {
