@@ -1,0 +1,11 @@
+body {
+  font-family: sans-serif;
+}
+
+p {
+  margin: .5rem 0 .5rem 0;
+}
+
+#content {
+  padding: 3rem;
+}

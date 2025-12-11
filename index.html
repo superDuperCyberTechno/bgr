@@ -2,22 +2,13 @@
 <html>
 
 <head>
+  <title>Better Games Repository</title>
+
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/modern-css-reset/dist/reset.min.css">
+  <link rel="stylesheet" href="style.css">
+
   <script src="https://cdn.jsdelivr.net/npm/marked@17.0.1/lib/marked.umd.min.js"></script>
-
-  <style>
-    body {
-      font-family: sans;
-    }
-
-    p {
-    margin: .5rem 0 .5rem 0;
-    }
-
-    #content {
-      padding: 3rem;
-    }
-  </style>
+  <script src="script.js"></script>
 </head>
 
 <body>
@@ -25,18 +16,8 @@
   </div>
 
   <script>
-    fetch('https://raw.githubusercontent.com/superDuperCyberTechno/bgr/refs/heads/main/README.md')
-      .then(response => {
-        if (!response.ok) throw new Error(`HTTP ${response.status}`);
-        return response.text();
-      })
-      .then(html => {
-        document.getElementById('content').innerHTML = marked.parse(html);
-      })
-      .catch(err => console.error('Fetch error:', err));
-
+    load_md('https://raw.githubusercontent.com/superDuperCyberTechno/bgr/refs/heads/main/README.md', '#content')
   </script>
 </body>
 
 </html>
-
