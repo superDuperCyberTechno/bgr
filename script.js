@@ -24,6 +24,6 @@ window.addEventListener("DOMContentLoaded", (event) => {
     }
   }
   else {
-    window.location.href = "/?p=home"
+    window.location.href = "?p=home"
   }
 });
