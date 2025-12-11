@@ -1,5 +1,5 @@
 # Better Games Repository
-A slightly pissed-off, highly opinionated collection of good tabletop games, playable by the majority of the human race. Curated by a bunch of pedantic nerds, you are welcome.
+<small>*A slightly pissed-off, highly opinionated collection of good tabletop games, playable by the majority of the human race, curated by a bunch of pedantic nerds, you are welcome.*</small>
 
 ---
 
