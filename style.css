@@ -2,6 +2,14 @@ body:not(a, summary) {
   cursor: default;
 }
 
+details>summary {
+  list-style-type: '\2660';
+}
+
+details[open]>summary {
+  list-style-type: '\2665';
+}
+
 body {
   line-height: 1.3;
   background-color: #F8F3F2;
