@@ -1,9 +1,15 @@
 body {
-  font-family: sans-serif;
+  font-family: Inter, sans-serif;
 }
 
 p {
   margin: .5rem 0 .5rem 0;
+}
+
+h1+p,
+h2+p,
+h3+p {
+  margin: 0 0 .5rem 0;
 }
 
 #content {
