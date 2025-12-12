@@ -3,12 +3,15 @@ body:not(a, summary) {
 }
 
 details[open]>summary::marker {
-  content: "\2665\FE0E";
   color: red;
 }
 
-details>summary::marker {
-  content: "\2660\FE0E";
+details>summary {
+  list-style-type: "\2660\FE0E";
+}
+
+details[open]>summary {
+  list-style-type: "\2665\FE0E";
 }
 
 body {
