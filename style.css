@@ -2,6 +2,10 @@ body:not(a, summary) {
   cursor: default;
 }
 
+details>summary::marker {
+  font-size: .9em;
+}
+
 details[open]>summary::marker {
   color: red;
 }
