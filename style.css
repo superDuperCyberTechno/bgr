@@ -2,12 +2,13 @@ body:not(a, summary) {
   cursor: default;
 }
 
-details>summary {
-  list-style-type: '\2660';
+details[open]>summary::marker {
+  content: "\2665\FE0E";
+  color: blue;
 }
 
-details[open]>summary {
-  list-style-type: '\2665';
+details>summary::marker {
+  content: "\2660\FE0E";
 }
 
 body {
