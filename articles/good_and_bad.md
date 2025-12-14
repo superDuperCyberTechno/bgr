@@ -1,4 +1,6 @@
-## What are *bad* games?
+## Good and bad
+
+### Bad games
 There are hundreds (if not thousands) of games available for a standard 52-card deck. However, this only a half-truth: Most games are simply variants of other, older games. In fact, many related card games are so similar, that one could argue they are the same game. Another important thing to note is that newer variants are rarely any better than their progenitors...
 
 For some reason, probably not apparent to anyone but the most celebrated anthropologists, many of the well-established rules that live within these games survive the test of time, regardless of how much sense they make. Things lurk within card games, the die-hard residue of frankly awful game design...

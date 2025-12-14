@@ -7,23 +7,23 @@ function load_md(url, elem) {
   var req = new XMLHttpRequest()
   req.open("GET", url, false)
   req.send(null)
-  let response = req.responseText
-  if (response) {
+
+  //we check for returning the index file, because some webservers always return that
+  //so, if it's .html (and not .md) just act like it doesn't exist
+  if (!req.responseText.includes('!DOCTYPE html')) {
     document.querySelector(elem).innerHTML = marked.parse(req.responseText)
+    return true
   }
+
+  return false
 }
 
-window.addEventListener("DOMContentLoaded", (event) => {
-  let page = new URLSearchParams(window.location.search).get('p')
-  if (page) {
-    page = page.replace('-', '/')
-    if (page == 'home') {
-      load_md('./README.md', '#content>div')
-    } else {
-      load_md('./' + page + '/README.md', '#content>div')
-    }
-  }
-  else {
-    window.location.href = "?p=home"
-  }
-});
+let page = new URLSearchParams(window.location.search).get('p')
+if (page === null) {
+  page = ''
+}
+
+page = page.replace('-', '/')
+if (!load_md('./' + page + '.md', '#content>div')) {
+  window.location.href = "?p=home"
+}
