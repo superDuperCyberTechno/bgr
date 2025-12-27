@@ -1,9 +1,8 @@
 ## Good and bad
 
 ### Bad games
-There are hundreds (if not thousands) of games available for a standard 52-card deck. However, this only a half-truth: Most games are simply variants of other, older games. In fact, many related card games are so similar, that one could argue they are the same game. Another important thing to note is that newer variants are rarely any better than their progenitors...
-
-For some reason, probably not apparent to anyone but the most celebrated anthropologists, many of the well-established rules that live within these games survive the test of time, regardless of how much sense they make. Things lurk within card games, the die-hard residue of frankly awful game design...
+There are hundreds (if not thousands) of games available for a standard 52-card deck. However, this only a half-truth: Most games are simply variants of other, older games. In fact, many related card games are so similar, that one could argue they are the same game. This is not necessarily a bad thing and it makes sense from a anthropological standpoint, cultures constantly bleeding into each other. But from a purely mathematical view, it's lazy: These 52 cards have enough embedded information to make countless more, unique games. So why don't we look for them?
+Many of the well-established rules that live within regular games survive the test of time, regardless of how much sense they make. Things lurk within card games, the die-hard residue of frankly awful game design...
 
 **Luck exclusivity** encompasses all games that only ever really depend on luck. This can sometimes be obscured by overly complicated rules. In short, these games can be boiled down to simply flipping a coin. - In other words, they are a waste of time.
 A classic example is *War* which many agree is simply a way to kill time or introducde kids to card games. This game is essentially just a very long series of coin flips that (sometimes) end with a winner.
@@ -18,8 +17,7 @@ Most people will quickly retort, saying that if you play with cheaters, maybe pl
 
 **Convoluted scoring** is a broad term, it usually boils down to scoring that are either really hard to remember or happens so often that you need to constantly keep tally and do math. Or even worse: Both. Often, it will glue you to the notepad half the time as you try to keep up with the actual game.
 A lot of games have zero qualms about issuing asinine point scores to wildly different scenarios that are mostly impossible to deduce. Here, nothing will help you other than rawdogging the rules and simply remembering how points are handed out. Or reference sheets.
-A subset of these offenders also arbitrarily multiply all scores so that someone might never score less than 10 points. A better combo might yield 15 points. It doesn't take a mathematical genius to simply reduce the numbers by their lowest denominator and realize that above is practically identical to 2 and 3 points.
-Scoring should be almost instantly comprehendable, easily calculated and only rarely depend on a notepad.
+A subset of these offenders also arbitrarily inflate scores by some generic multiplier, usually 10. It doesn't take a mathematical genius to simply reduce all the numbers by their lowest common denominator and realize the end result is exactly the same.
+Scoring should be almost instantly comprehendable, easily calculated and only rarely depend on a notepad. Then, any player
 
 ## What are *good* games?
-
